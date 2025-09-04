@@ -8,6 +8,7 @@ int main(){
 	
 	std::cout << "Please enter your name: ";	
 	std::getline(std::cin, name);
+	std::cout << std::endl;
 
 	name = GreetingUtils::create_message(name);
 
